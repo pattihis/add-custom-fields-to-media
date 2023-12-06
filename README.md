@@ -29,7 +29,7 @@ Once you've added a custom field, you can access it via the Media Library or dur
 * Browse code: https://plugins.trac.wordpress.org/browser/add-custom-fields-to-media/
 * Revision Log: https://plugins.trac.wordpress.org/log/add-custom-fields-to-media
 
-### == Installation ==
+### Installation
 
 1. In your WordPress admin panel, go to Plugins > New Plugin, search for "Add Custom Fields To Media" and click "Install now"
 2. Alternatively, download the plugin and upload the contents of add-custom-fields-to-media.zip to your plugins directory, which usually is /wp-content/plugins/
