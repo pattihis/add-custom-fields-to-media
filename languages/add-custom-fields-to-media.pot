@@ -1,0 +1,91 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Add Custom Fields To Media\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-06 05:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.6; wp-6.4.1\n"
+"X-Domain: add-custom-fields-to-media"
+
+#. Name of the plugin
+#: admin/partials/add-custom-fields-to-media-admin-display.php:16
+msgid "Add Custom Fields To Media"
+msgstr ""
+
+#: admin/partials/add-custom-fields-to-media-admin-display.php:20
+msgid ""
+"Add custom fields to media library to allow users to add fields such as "
+"copyright holder details, photographer URL links etc."
+msgstr ""
+
+#: admin/partials/add-custom-fields-to-media-admin-display.php:76
+msgid "Add new field to Media"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Allows users to add custom fields to the media uploader and access those "
+"fields in template files. Great for adding copyrights etc."
+msgstr ""
+
+#: admin/partials/add-custom-fields-to-media-admin-display.php:53
+msgid "Existing custom media fields"
+msgstr ""
+
+#: admin/partials/add-custom-fields-to-media-admin-display.php:88
+msgid "Field Help"
+msgstr ""
+
+#: admin/partials/add-custom-fields-to-media-admin-display.php:84
+msgid "Field Title"
+msgstr ""
+
+#. Author of the plugin
+msgid "George Pattichis"
+msgstr ""
+
+#: admin/partials/add-custom-fields-to-media-admin-display.php:89
+msgid "Helpful tips, displayed to users describing this field."
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://https://profiles.wordpress.org/pattihis//"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://https://wordpress.org/plugins/add-custom-fields-to-media/"
+msgstr ""
+
+#: admin/class-add-custom-fields-to-media-admin.php:80
+#: admin/class-add-custom-fields-to-media-admin.php:81
+msgid "Media Custom Fields"
+msgstr ""
+
+#: admin/partials/add-custom-fields-to-media-admin-display.php:94
+msgid "Save Changes"
+msgstr ""
+
+#: admin/partials/add-custom-fields-to-media-admin-display.php:85
+msgid ""
+"The field title, as displayed to users during media uploads or in the "
+"library."
+msgstr ""
+
+#: admin/partials/add-custom-fields-to-media-admin-display.php:81
+msgid ""
+"This should not include spaces or special characters and should be lowercase."
+" For example"
+msgstr ""
+
+#: admin/partials/add-custom-fields-to-media-admin-display.php:80
+msgid "Unique ID"
+msgstr ""

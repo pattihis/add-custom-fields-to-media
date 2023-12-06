@@ -1,0 +1,44 @@
+.acfm-header {
+  background: white;
+  border-radius: 8px;
+  padding: 10px;
+  max-width: 710px;
+  margin: 16px 0;
+}
+
+.acfm-fields-table {
+  max-width: 730px;
+  background: white;
+  border-radius: 8px;
+  padding: 10px 0;
+  margin: 16px 0;
+}
+
+.acfm-fields-table h3 {
+  padding-left: 10px;
+}
+
+.acfm-fields-table thead {
+  background: #fbfbfb;
+  color: #888;
+  font-weight: 700;
+}
+
+.acfm-form {
+  max-width: 730px;
+}
+
+.acfm-help {
+  background: white;
+  border-radius: 8px;
+  padding: 4px 0 24px 10px;
+  max-width: 710px;
+  margin: 16px 0 32px;
+}
+
+.acfm-help h4 {
+  background: #fafafa;
+  padding: 10px;
+  margin-left: -10px;
+  font-size: 18px;
+}
