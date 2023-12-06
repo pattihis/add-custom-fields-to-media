@@ -26,7 +26,7 @@ For PHP templates, use the following code:
 
 * <code>echo get_post_meta( 123, 'my_custom_field', true );</code>
 
-To use this plugin effectively, download and intall it on your WordPress blog. Next, access the settings page (Settings > Media Custom Fields) and create a new custom field for your media uploads.
+To use this plugin effectively, download and intall it on your WordPress blog. Next, access "Media Custom Fields" page in your admin Settings and create a new custom field for your media uploads.
 
 * Unique ID - The unique variable name for this item. It may not contain special characaters or spaces
 * Field Title - The name you want to appear in the media uploader
