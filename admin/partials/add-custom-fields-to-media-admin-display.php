@@ -66,7 +66,7 @@ if ( $media_custom_fields ) :
 						<td><?php echo esc_html( $custom_field['unique_id'] ); ?></td>
 						<td><?php echo esc_html( $custom_field['name'] ); ?></td>
 						<td><?php echo esc_html( $custom_field['help'] ); ?></td>
-						<td><a href="options-general.php?page=add-custom-fields-to-media&delete=<?php echo rawurlencode( $custom_field['unique_id'] ); ?>" style="text-decoration: none;" title="Delete Field"><span class="dashicons dashicons-trash"></span></a></td>
+						<td><a href="<?php echo esc_url( 'options-general.php?page=add-custom-fields-to-media&delete=' . $custom_field['unique_id'] ); ?>" style="text-decoration: none;" title="Delete Field"><span class="dashicons dashicons-trash"></span></a></td>
 					</tr>
 				<?php } ?>
 			</tbody>
