@@ -63,7 +63,7 @@ Technical support is available for free from the WordPress community on [wordpre
 
 == Changelog ==
 
-= 2.0.0 (December, 2023) =
+= 2.0.0 (January, 2024) =
 * Major Update
 * Compatibility refactoring
 * WP Coding Standards

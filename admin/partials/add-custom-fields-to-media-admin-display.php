@@ -24,6 +24,9 @@ $media_custom_fields = get_option( 'thisismyurl_custom_media_fields', null );
 $nonce = isset( $_REQUEST['_wpnonce'] ) ? wp_verify_nonce( sanitize_text_field( wp_unslash( $_REQUEST['_wpnonce'] ) ), 'media_custom_fields_nonce' ) : false;
 
 if ( $nonce && isset( $_POST['unique_id'] ) && ! empty( $_POST['unique_id'] ) && isset( $_POST['field_title'] ) && ! empty( $_POST['field_title'] ) && isset( $_POST['field_help'] ) ) {
+	if ( ! is_array( $media_custom_fields ) ) {
+		$media_custom_fields = array();
+	}
 	$media_custom_fields[] = array(
 		'unique_id' => sanitize_text_field( wp_unslash( $_POST['unique_id'] ) ),
 		'name'      => sanitize_text_field( wp_unslash( $_POST['field_title'] ) ),
