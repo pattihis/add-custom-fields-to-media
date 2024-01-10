@@ -99,6 +99,27 @@ class Add_Custom_Fields_To_Media_Admin {
 	}
 
 	/**
+	 * Show custom links in Plugins Page
+	 *
+	 * @since  1.0.0
+	 * @access public
+	 * @param  array $links Default Links.
+	 * @param  array $file Plugin's root filepath.
+	 * @return array Links list to display in plugins page.
+	 */
+	public function add_custom_fields_to_media_plugin_links( $links, $file ) {
+
+		if ( ADD_CUSTOM_FIELDS_TO_MEDIA_BASENAME === $file ) {
+			$acfm_links = '<a href="' . get_admin_url() . 'options-general.php?page=add-custom-fields-to-media" title="Plugin Options">' . __( 'Settings', 'add-custom-fields-to-media' ) . '</a>';
+			$acfm_visit = '<a href="https://gp-web.dev/" title="Contact" target="_blank" >' . __( 'Contact', 'add-custom-fields-to-media' ) . '</a>';
+			array_unshift( $links, $acfm_visit );
+			array_unshift( $links, $acfm_links );
+		}
+
+		return $links;
+	}
+
+	/**
 	 * Adding a custom field to the media uploader $form_fields array
 	 *
 	 * @param array  $form_fields the array of form fields.

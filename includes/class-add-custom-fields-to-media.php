@@ -64,7 +64,7 @@ class Add_Custom_Fields_To_Media {
 		if ( defined( 'ADD_CUSTOM_FIELDS_TO_MEDIA_VERSION' ) ) {
 			$this->version = ADD_CUSTOM_FIELDS_TO_MEDIA_VERSION;
 		} else {
-			$this->version = '2.0.0';
+			$this->version = '2.0.1';
 		}
 		$this->plugin_name = 'add-custom-fields-to-media';
 
@@ -148,6 +148,7 @@ class Add_Custom_Fields_To_Media {
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_scripts' );
 
 		$this->loader->add_action( 'admin_menu', $plugin_admin, 'add_custom_fields_to_media_admin_menu' );
+		$this->loader->add_filter( 'plugin_action_links', $plugin_admin, 'add_custom_fields_to_media_plugin_links', 10, 2 );
 		$this->loader->add_filter( 'attachment_fields_to_edit', $plugin_admin, 'hook_custom_media_fields', 10, 2 );
 		$this->loader->add_filter( 'attachment_fields_to_save', $plugin_admin, 'save_custom_media_fields', 10, 2 );
 	}

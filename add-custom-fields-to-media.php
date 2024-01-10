@@ -2,17 +2,17 @@
 /**
  * The plugin's main file
  *
- * @link              https://https://wordpress.org/plugins/add-custom-fields-to-media/
+ * @link              https://wordpress.org/plugins/add-custom-fields-to-media/
  * @since             2.0.0
  * @package           Add_Custom_Fields_To_Media
  *
  * @wordpress-plugin
  * Plugin Name:       Add Custom Fields To Media
- * Plugin URI:        https://https://wordpress.org/plugins/add-custom-fields-to-media/
- * Description:       Allows users to add custom fields to the media uploader and access those fields in template files. Great for adding copyrights etc.
- * Version:           2.0.0
+ * Plugin URI:        https://wordpress.org/plugins/add-custom-fields-to-media/
+ * Description:       Allows users to add custom fields to the media uploader and access those fields in template files. Great for adding copyrights, image meta etc.
+ * Version:           2.0.1
  * Author:            George Pattichis
- * Author URI:        https://https://profiles.wordpress.org/pattihis//
+ * Author URI:        https://profiles.wordpress.org/pattihis//
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       add-custom-fields-to-media
@@ -25,11 +25,18 @@ if ( ! defined( 'WPINC' ) ) {
 }
 
 /**
- * Currently plugin version.
- * Start at version 2.0.0 and use SemVer - https://semver.org
- * Rename this for your plugin and update it as you release new versions.
+ * Current plugin version.
+ *
+ * @since 2.0.0
  */
-define( 'ADD_CUSTOM_FIELDS_TO_MEDIA_VERSION', '2.0.0' );
+define( 'ADD_CUSTOM_FIELDS_TO_MEDIA_VERSION', '2.0.1' );
+
+/**
+ * Plugin's basename.
+ *
+ * @since 2.0.0
+ */
+define( 'ADD_CUSTOM_FIELDS_TO_MEDIA_BASENAME', plugin_basename( __FILE__ ) );
 
 /**
  * The code that runs during plugin activation.
