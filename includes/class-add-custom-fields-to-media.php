@@ -64,7 +64,7 @@ class Add_Custom_Fields_To_Media {
 		if ( defined( 'ADD_CUSTOM_FIELDS_TO_MEDIA_VERSION' ) ) {
 			$this->version = ADD_CUSTOM_FIELDS_TO_MEDIA_VERSION;
 		} else {
-			$this->version = '2.0.1';
+			$this->version = '2.0.2';
 		}
 		$this->plugin_name = 'add-custom-fields-to-media';
 
