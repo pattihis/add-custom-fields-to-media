@@ -4,9 +4,9 @@ Plugin URI: https://wordpress.org/plugins/add-custom-fields-to-media/
 Tags: wordpress, media, upload, custom fields, meta fields
 Donate link: https://profiles.wordpress.org/pattihis/
 Requires at least: 5.2
-Tested up to: 6.7.1
+Tested up to: 6.8
 Requires PHP: 7.2
-Stable tag: 2.0.2
+Stable tag: 2.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -62,6 +62,12 @@ You can post in the [support forum](https://wordpress.org/support/plugin/add-cus
 2. The custom fields in media library
 
 == Changelog ==
+
+= 2.0.3 =
+* Full compliance with WordPress Coding Standards (PHPCS)
+* Improved file docblocks and inline comments for standards
+* Enhanced security and sanitization review
+* Compatibility with WordPress v6.8
 
 = 2.0.2 =
 * Compatibility with WordPress v6.7

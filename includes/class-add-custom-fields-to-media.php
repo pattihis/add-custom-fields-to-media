@@ -64,7 +64,7 @@ class Add_Custom_Fields_To_Media {
 		if ( defined( 'ADD_CUSTOM_FIELDS_TO_MEDIA_VERSION' ) ) {
 			$this->version = ADD_CUSTOM_FIELDS_TO_MEDIA_VERSION;
 		} else {
-			$this->version = '2.0.2';
+			$this->version = '2.0.3';
 		}
 		$this->plugin_name = 'add-custom-fields-to-media';
 
@@ -95,24 +95,24 @@ class Add_Custom_Fields_To_Media {
 		 * The class responsible for orchestrating the actions and filters of the
 		 * core plugin.
 		 */
-		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/class-add-custom-fields-to-media-loader.php';
+		require_once plugin_dir_path( __DIR__ ) . 'includes/class-add-custom-fields-to-media-loader.php';
 
 		/**
 		 * The class responsible for defining internationalization functionality
 		 * of the plugin.
 		 */
-		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/class-add-custom-fields-to-media-i18n.php';
+		require_once plugin_dir_path( __DIR__ ) . 'includes/class-add-custom-fields-to-media-i18n.php';
 
 		/**
 		 * The class responsible for defining all actions that occur in the admin area.
 		 */
-		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'admin/class-add-custom-fields-to-media-admin.php';
+		require_once plugin_dir_path( __DIR__ ) . 'admin/class-add-custom-fields-to-media-admin.php';
 
 		/**
 		 * The class responsible for defining all actions that occur in the frontend
 		 * side of the site.
 		 */
-		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'public/class-add-custom-fields-to-media-public.php';
+		require_once plugin_dir_path( __DIR__ ) . 'public/class-add-custom-fields-to-media-public.php';
 
 		$this->loader = new Add_Custom_Fields_To_Media_Loader();
 	}

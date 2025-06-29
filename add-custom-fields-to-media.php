@@ -10,7 +10,7 @@
  * Plugin Name:       Add Custom Fields To Media
  * Plugin URI:        https://wordpress.org/plugins/add-custom-fields-to-media/
  * Description:       Allows users to add custom fields to the media uploader and access those fields in template files. Great for adding copyrights, image meta etc.
- * Version:           2.0.2
+ * Version:           2.0.3
  * Author:            George Pattichis
  * Author URI:        https://profiles.wordpress.org/pattihis//
  * License:           GPL-2.0+
@@ -29,7 +29,7 @@ if ( ! defined( 'WPINC' ) ) {
  *
  * @since 2.0.0
  */
-define( 'ADD_CUSTOM_FIELDS_TO_MEDIA_VERSION', '2.0.2' );
+define( 'ADD_CUSTOM_FIELDS_TO_MEDIA_VERSION', '2.0.3' );
 
 /**
  * Plugin's basename.
